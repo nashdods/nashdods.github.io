@@ -196,16 +196,15 @@ em{
 }
 
 ::-webkit-scrollbar-thumb {
-	
-	
+	background-color: #d5d5d5;
 }
 
 ::-webkit-scrollbar-track {
-    
+    box-shadow: inset 0px 0px 2px rgba(200,200,200,1);
 }
 
 ::-webkit-scrollbar-track-piece {
-	
+	background-color: #e5e5e5;
 }
 
 
@@ -2569,10 +2568,8 @@ textarea.focus,
 	left:50%;
 	z-index:1;
 	font-family: 'Calibre-Bold',"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ","Meiryo",Osaka,"ＭＳ Ｐゴシック", "MS PGothic",sans-serif;
-	font-size: 49px;
-	
+	font-size: 40px;
 	font-weight: 700;
-	
 	line-height:1;
 	text-align: center;
 
@@ -2705,6 +2702,7 @@ textarea.focus,
 	margin-left: -50px;
 	width: 100px;
 	height: 45px;
+
 	z-index:2;
 	overflow:hidden;
 
@@ -2735,13 +2733,14 @@ textarea.focus,
 	width: 100%;
 	height: 100%;
 	padding: 10px;
-	color: #faf6f6;
+	color: #ffffff;
 	font-family: 'Calibre-Bold',"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ","Meiryo",Osaka,"ＭＳ Ｐゴシック", "MS PGothic",sans-serif;
-	font-size: 19px;
+	font-size: 16px;
 	font-weight: 700;
 	line-height:1;
 	text-align:center;
 	letter-spacing:0.2em;
+
 	z-index: 1;
 }
 #top #scroll-info-line{
