@@ -2705,7 +2705,6 @@ textarea.focus,
 	margin-left: -50px;
 	width: 100px;
 	height: 45px;
-	
 	z-index:2;
 	overflow:hidden;
 
@@ -2743,7 +2742,6 @@ textarea.focus,
 	line-height:1;
 	text-align:center;
 	letter-spacing:0.2em;
-
 	z-index: 1;
 }
 #top #scroll-info-line{
