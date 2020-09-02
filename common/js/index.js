@@ -85,17 +85,7 @@
 	}
 
 
-	function addEvents(){
-		$('#scroll-info a').on('click.index',function(e){
-			$(document).off('mousewheel.index touchmove.index');
-			stop();
-		})
 
-		$(document).on('mousewheel.index touchmove.index', function(e){
-			$(document).off('mousewheel.index touchmove.index');
-			bq.page.show($('#scroll-info a').attr('href'));
-		});
-	}
 
 	function removeEvents(){
 		$('#scroll-info a').off('click.index');
