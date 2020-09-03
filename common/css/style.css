@@ -1,9 +1,5 @@
 @charset "utf-8";
-/**--------------------------------------------------------
- * CSS information
- * file name	: style.css
- * author		: takaaki koyama
- -----------------------------------------------------------*/
+
 
 @font-face {
 	font-family: 'Calibre-Bold';
@@ -1655,67 +1651,6 @@ li.current .sub-nav-links{
 	font-family: 'Calibre-Regular',"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ","Meiryo",Osaka,"ＭＳ Ｐゴシック", "MS PGothic",sans-serif;
 }
 
-
-/*
- .section
--------------------------------------------------*/
-
-.section{
-	font-size:1.6em;
-	background-color:#fff;
-	padding: 50px 50px 20px;
-	margin-bottom:20px;
-}
-
-.section{
-	overflow:hidden;
-	*zoom: 1;
-}
-.section:before, .section:after { display: table; content: ""; line-height: 0;}
-.section:after { clear: both; }
-
-.section table,
-.section ol,
-.section ul,
-.section dl,
-.section blockquote,
-.section pre,
-.section code,
-.section p {
-	margin-bottom: 2em;
-}
-
-.section table ul, .section table ol, .section table dl, .section table p,
-.section ul ul, .section ul ol, .section ul dl, .section ul p,
-.section ol ul, .section ol ol, .section ol dl, .section ol p,
-.section dl ul, .section dl ol, .section dl dl, .section dl p{
-	margin-bottom: 0;
-}
-
-.section table{
-	width:100%;
-}
-
-.section table th{
-	font-weight:normal;
-}
-.section table td{
-}
-
-
-.section-title{}
-
-.section-title h1,
-.section-title h2,
-.section-title h3,
-.section-title h4,
-.section-title h5,
-.section-title h6{
-}
-
-.section-content{
-	margin-bottom: 2em;
-}
 
 
 
